@@ -1,0 +1,11 @@
+workspace/
+store/
+data/
+logs/
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+skills/ppt-presenter/

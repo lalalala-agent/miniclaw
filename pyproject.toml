@@ -1,0 +1,21 @@
+[project]
+name = "self-agent"
+version = "0.1.0"
+description = "个人 Telegram Agent"
+requires-python = ">=3.10"
+dependencies = [
+    "aiosqlite",
+    "apscheduler",
+    "croniter",
+    "openai",
+    "openai-agents",
+    "python-dotenv",
+    "python-pptx",
+    "python-telegram-bot>=21",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
